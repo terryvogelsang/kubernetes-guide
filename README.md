@@ -1,5 +1,5 @@
 ---
-description: Kubernetes learning resources
+description: A extended notepad about all Kubernetes related stuffs
 ---
 
 # Kubernetes Guide
