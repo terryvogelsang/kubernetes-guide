@@ -35,5 +35,14 @@ Issuing an `ip route` command on any Kubernetes node will show routing rules in 
 
 DNS is considered as an add-on in Kubernetes.
 
+Kubernetes DNS schedules a DNS Pod and Service on the cluster, and configures the kubelets to tell individual containers to use the DNS Service’s IP to resolve DNS names.
+
 CoreDNS pods are running inside the pods network unlike primary services \(etcd, kube-apiserver, ...\) which are running on the host's node network.
+
+Every Service defined in the cluster \(including the DNS server itself\) is assigned a DNS name. By default, a client Pod’s DNS search list will include the Pod’s own namespace and the cluster’s default domain. This is best illustrated by example:
+
+Assume a Service named `foo` in the Kubernetes namespace `bar` :
+
+* A Pod running in namespace `bar` can look up this service by simply doing a DNS query for `foo`
+* A Pod running in namespace `quux` can look up this service by doing a DNS query for `foo.bar`.
 
