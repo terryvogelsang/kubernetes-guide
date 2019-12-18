@@ -10,5 +10,8 @@
   * [kube-apiserver](kubernetes-components/master-components/kube-apiserver.md)
   * [kube-controller-manager](kubernetes-components/master-components/kube-controller-manager.md)
   * [kube-scheduler](kubernetes-components/master-components/kube-scheduler.md)
-* [Node Components](kubernetes-components/node-components.md)
+* [Node Components](kubernetes-components/node-components/README.md)
+  * [Container Runtime](kubernetes-components/node-components/container-runtime.md)
+  * [kubelet](kubernetes-components/node-components/kubelet.md)
+  * [kube-proxy](kubernetes-components/node-components/kube-proxy.md)
 
