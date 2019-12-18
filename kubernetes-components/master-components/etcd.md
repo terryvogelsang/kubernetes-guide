@@ -4,11 +4,11 @@ description: Distributed & reliable key value store containing all Kubernetes cl
 
 # etcd
 
-## Key Points
+etcd corresponds to a distributed & reliable **key value store containing all cluster data.** 
 
-* etcd corresponds to a distributed & reliable **key value store containing all cluster data.**
-*  ****All objects available in the Kubernetes cluster are described in this database. 
-* etcd acts as the reference for the cluster state. If the cluster differs from what is indicated by etcd data, the cluster is changed to match
+All objects available in the Kubernetes cluster are described in this database. 
+
+etcd acts as the reference for the cluster state. If the cluster differs from what is indicated by etcd data, the cluster is changed to match
 
 ## **Things to consider** 
 
