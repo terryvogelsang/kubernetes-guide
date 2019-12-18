@@ -14,4 +14,5 @@
   * [Container Runtime](kubernetes-components/node-components/container-runtime.md)
   * [kubelet](kubernetes-components/node-components/kubelet.md)
   * [kube-proxy](kubernetes-components/node-components/kube-proxy.md)
+* [Pods](pods.md)
 
