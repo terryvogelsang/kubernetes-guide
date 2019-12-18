@@ -5,9 +5,9 @@
 ## Kubernetes Components
 
 * [Master Components](kubernetes-components/master-components/README.md)
+  * [etcd](kubernetes-components/master-components/etcd.md)
+  * [kube-apiserver](kubernetes-components/master-components/kube-apiserver.md)
   * [kube-controller-manager](kubernetes-components/master-components/kube-controller-manager.md)
   * [kube-scheduler](kubernetes-components/master-components/kube-scheduler.md)
-  * [kube-apiserver](kubernetes-components/master-components/kube-apiserver.md)
-  * [etcd](kubernetes-components/master-components/etcd.md)
 * [Node Components](kubernetes-components/node-components.md)
 
