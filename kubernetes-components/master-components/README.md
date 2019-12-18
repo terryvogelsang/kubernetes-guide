@@ -4,5 +4,5 @@
 >
 > Master components can be run on any machine in the cluster. However, for simplicity, set up scripts typically start all master components on the same machine, and do not run user containers on this machine.
 
-**Source :** [**https://kubernetes.io/docs/concepts/overview/components/\#master-components**](https://kubernetes.io/docs/concepts/overview/components/#master-components)\*\*\*\*
+**Source:** [**https://kubernetes.io/docs/concepts/overview/components/\#master-components**](https://kubernetes.io/docs/concepts/overview/components/#master-components)\*\*\*\*
 
