@@ -23,6 +23,10 @@ Network plugins implementation varies according to their specifications. However
 
 A network plugin configures IPTables on the nodes to set up routing that allows communication between poids and nodes as well as with pods on other nodes within the cluster.
 
+Here's a list of popular network plugins : 
+
+* **Flannel -** Simple basic CNI
+
 ### Routing
 
 Issuing an `ip route` command on any Kubernetes node will show routing rules in place for the latter.
